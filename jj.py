@@ -22,7 +22,8 @@ def solved_normal_capcha():
                                        value='/html/body/div[8]/div[2]/div[2]/img')
     captcha_img.screenshot(r'D:\Users7\Roman\Desktop\zhd_tikets\solver_captcha\captcha.png')
     api_key = os.getenv('APIKEY_2CAPTCHA',
-                        'f679b71e4d9984d0e9ee560079629fc9')
+                        
+                      )
 
     solver = TwoCaptcha(api_key)
 
